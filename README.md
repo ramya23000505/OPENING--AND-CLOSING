@@ -7,24 +7,24 @@ To implement Opening and Closing using Python and OpenCV.
 1. Anaconda - Python 3.7
 2. OpenCV
 ## Algorithm:
-### Step-1:Read the Image:
+#### Step-1:Read the Image:
 
 Load the input color image from a specified path.
-### Step-2:Convert to Grayscale:
+#### Step-2:Convert to Grayscale:
 
 Transform the color image into a grayscale format for easier processing.
-### Step-3:Edge Detection:
+#### Step-3:Edge Detection:
 
 Apply an edge detection technique to identify the prominent edges in the grayscale image.
-### Step-4:Create Structuring Element:
+#### Step-4:Create Structuring Element:
 
 Define a kernel (structuring element) for use in morphological operations, typically a matrix of ones.
-### Step-6:Morphological Operations:
+#### Step-6:Morphological Operations:
 
 Perform morphological operations:<br>
 Opening: Remove small objects from the edges to clean up the image.<br>
 Closing: Fill small holes in the detected edges to enhance the structure.
-### Step-7:Display Results:
+#### Step-7:Display Results:
 
 Show the original grayscale image, along with the results of the opening and closing operations for visual comparison.
  
